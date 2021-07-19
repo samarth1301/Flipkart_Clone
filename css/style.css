@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* hi
+ye flipkart vaala h ruk
+abhi naaa
+mai jb go live krungaa naa
+to tere mai ek pop up aaega side mai
+uspr yes krdena
+nhi aaya
+side mai dekh
+kux esa pop up hogaa
+ki mai kux share krna chahta hu 
+nhi dikhrha
+ok? */
+/* ruk frse krta hu haaaaaaaa */
+/* aaya? */
+/* to fr?
+bs live share?hnnnnnnnn
+pr mere mai opt aata taa
+ki tu kux share krna chahti h 
+tu vs code se chrome pr ni kholti tii?
+achhaa
+ruk
+jb tu khol rha tha na tb mene kuch nhi kiya tha  
+hnji */
+header {
+  min-width: 1250px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav {
+  background-color: rgb(35, 108, 245);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em 1.15em;
+  width: 98.9vw;
+  min-width: 1260px;
+}
+.home {
+  display: flex;
+}
+.home > div > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: oblique 2deg;
+  /* position: relative;
+    top: 0px; */
+  /* transform: skewY(110deg); */
+}
+.home > a {
+  color: white;
+  text-decoration: none;
+}
+#exp {
+  position: relative;
+  top: 20px;
+  left: -20px;
+  font-size: 0.6rem;
+  margin-right: 1em;
+}
+#exp:hover {
+  text-decoration: underline white;
+}
+.plus {
+  color: yellow;
+}
+
+#btn {
+  position: relative;
+  top: 0.4em;
+  left: -1.8em;
+}
+.myinfo > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  width: 35vw;
+  min-width: 400px;
+  height: 35px;
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.myinfo > ul {
+  display: flex;
+  
+  list-style: none;
+}
+.myinfo > ul > li {
+  margin-right: 2em;
+  margin-top: 0.5em;
+  position: relative;
+  width: 50px;
+}
+
+.rotate {
+  color: white;
+  transform: rotate(90deg);
+  font-size: 0.8rem;
+}
+
+
+.aboutme{
+  /* background-color: red;  */
+  /* visibility: hidden; */
+  display: none;
+  position: absolute;
+  left: -60px;
+  background-color: white;
+  z-index: 2;
+  box-shadow: 10px 10px 40px  gray;
+  width: 200px;
+}
+.aboutme>ul{
+  list-style: none;
+}
+
+.aboutme>ul>li:hover{
+  background-color: rgb(238, 237, 237);
+}
+
+.aboutme>ul>li{
+  padding: 1.2em;
+
+}
+
+.aboutme>ul>li>a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.myinfo>ul>li:hover .aboutme{
+  display: block;
+}
+
+.cart {
+  
+  position: relative;
+  top: -5px;
+}
+
+.box {
+  width: 98.9vw;
+  min-width: 1250px;
+}
+.box > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 8em;
+  background-color: white;
+}
+.box > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.box > ul > li > a:hover {
+  color: rgb(35, 108, 245);
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+.slider {
+  margin: 1.7em 0.5em 0.5em;
+}
+
+.slider > a > img {
+  min-width: 1250px;
+  width: 98vw;
+}
+
+
+
+
+.back_to_top {
+  background-color: rgb(35, 108, 245);
+  color: white;
+  border-radius: 0.7em;
+  position: fixed;
+  right: 0;
+  bottom: 150px;
+  width: 80px;
+  height: 80px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1.2em; */
+  z-index: 2;
+}
+
+.back_to_top a {
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.sale {
+  /* display: inline-block; */
+  float: right;
+  background-color: white;
+  padding: 0.2em;
+  width: 240px;
+  /* height: 440px; */
+}
+.sale > a > img {
+  width: 230px;
+  height: 410px;
+}
+
+.deals {
+  height: 420px;
+  width: 1300px;
+  min-width: 1000px;
+  margin: 0 0.8em;
+  /* display: inline-block; */
+  float: left;
+  background-color: white;
+  padding: 0.2em;
+}
+.top {
+  padding: 1em 2em;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.dod {
+  display: flex;
+  justify-content: center;
+}
+.dod > p {
+  margin-left: 2em;
+  margin-top: 0.3em;
+  /* font-size: 1rem; */
+  color: gray;
+}
+.container {
+  /* margin-right: 1em; */
+  display: flex;
+  justify-content: space-between;
+  width: 98vw;
+  min-width: 1200px;
+  /* background-color: red; */
+}
+
+.view > a {
+  background-color: rgb(35, 108, 245);
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.6em 1em;
+  box-shadow: 3px 3px 10px gray;
+}
+.view {
+  margin-top: 0.6em;
+}
+
+.items > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 1em;
+}
+
+.items > ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.items > ul > li > a > img {
+  width: 9vw;
+  min-width: 150px;
+}
+
+.green {
+  color: green;
+}
+.gray {
+  color: gray;
+}
+.col > img {
+  width: 5vw;
+  min-width: 100px;
+  margin-bottom: 1em;
+}
+
+.items > ul > li:hover {
+  transform: scale(1.05);
+}
+
+.images {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  width: 98.9vw;
+
+  /* background-color: red; */
+  /* width: 97vw; */
+}
+
+.images > a > img {
+  width: 30vw;
+  min-width: 392px;
+  margin: 0 1em;
+}
+.discount {
+  /* width: 100vw; */
+  width: 97vw;
+  min-width: 1240px;
+  height: 380px;
+  margin: 1em;
+}
+.discount > div > ul > li > a > img {
+  width: 10vw;
+  min-width: 150px;
+  background-color: rgb(236, 236, 236);
+}
+
+footer {
+  min-width: 1260px;
+  background-color: rgb(27, 27, 61);
+  padding: 2em 0;
+  width: 98.9vw;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.links li {
+  padding: 0.5em 0;
+}
+
+.links a:hover {
+  text-decoration: underline white;
+}
+
+footer ul li {
+  list-style: none;
+}
+footer div {
+  color: white;
+  font-size: 0.8rem;
+}
+.upper {
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.contact_us {
+  width: 40%;
+}
+
+.line {
+  border: 0.1px solid rgb(139, 135, 135);
+  height: 110px;
+}
+
+.contact_us > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact_us a {
+  color: rgb(47, 47, 247);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first {
+  width: 40%;
+}
+.first ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first a {
+  position: relative;
+  top: -5px;
+}
