@@ -108,7 +108,13 @@ nav {
 .rotate {
   color: white;
   transform: rotate(90deg);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+}
+.myinfo>ul>li:hover .aboutme{
+  display: block;
+}
+.myinfo>ul>li:hover .rotate{
+  transform: rotate(270deg);
 }
 
 
@@ -143,9 +149,8 @@ nav {
   font-size: 0.9rem;
 }
 
-.myinfo>ul>li:hover .aboutme{
-  display: block;
-}
+
+
 
 .cart {
   
