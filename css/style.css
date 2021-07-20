@@ -30,7 +30,7 @@ header {
   min-width: 1250px;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav {
@@ -106,9 +106,9 @@ nav {
 }
 
 .rotate {
-  color: white;
+  color:white;
   transform: rotate(90deg);
-  font-size: 0.85rem;
+  font-size: .8rem;
 }
 .myinfo>ul>li:hover .aboutme{
   display: block;
@@ -117,7 +117,10 @@ nav {
   transform: rotate(270deg);
 }
 
-
+/* #white .rotate {
+  transform: rotate(90deg);
+  color: black;
+} */
 .aboutme{
   /* background-color: red;  */
   /* visibility: hidden; */
@@ -126,7 +129,7 @@ nav {
   left: -60px;
   background-color: white;
   z-index: 2;
-  box-shadow: 10px 10px 40px  gray;
+  box-shadow: 10px 20px 50px  gray;
   width: 200px;
 }
 .aboutme>ul{
@@ -159,8 +162,10 @@ nav {
 }
 
 .box {
+  /* display: flex; */
   width: 98.9vw;
   min-width: 1250px;
+
 }
 .box > ul {
   list-style: none;
@@ -168,14 +173,41 @@ nav {
   justify-content: space-around;
   padding: 1em 8em;
   background-color: white;
-}
-.box > ul > li > a {
-  color: black;
-  text-decoration: none;
+
 }
 
-.box > ul > li > a:hover {
+.elec{
+  position: relative;
+}
+
+.elec:hover .aboutme{
+  display: block;
+}
+
+.box .rotate{
+  color: black;
+  position: absolute;
+  top: 21.5px;
+  left: 74px;
+  transform: rotate(90deg);
+}
+
+.box a:hover .rotate{
   color: rgb(35, 108, 245);
+
+}
+
+.box  a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.box  a:hover {
+  color: rgb(35, 108, 245);
+}
+.box  a:hover .rotate{
+  transform: rotate(270deg);
 }
 
 body {
